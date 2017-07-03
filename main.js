@@ -1,6 +1,6 @@
 var inputArray = [];
 
-var numberButton = document.getElementsByClassName('number-button'); // returns value of numbered button clicked on and pushes to display array
+var numberButton = document.getElementsByClassName('number-button');
 for(let i = 0; i < numberButton.length; ++i){
   numberButton[i].onclick = function(){
     var numArr = document.getElementsByClassName('number-content');
